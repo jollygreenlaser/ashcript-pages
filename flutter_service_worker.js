@@ -4,8 +4,8 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "62e1efb6943c1df6a57910e26cdcab73",
-"index.html": "dda425dbe674d2fc1c0cdd6f7893bfb0",
-".": "dda425dbe674d2fc1c0cdd6f7893bfb0",
+"index.html": "54698f82fcbc1c5ae7208c47971a3c41",
+".": "54698f82fcbc1c5ae7208c47971a3c41",
 "main.dart.js": "97c22d4f2aba688099f1b0dc72787690",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -13,6 +13,7 @@ const RESOURCES = {
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "d2f6fc06cb22261d1dea71ab228407f8",
+".git/ORIG_HEAD": "132437783246f8f1b19dbaa7b42d4fa3",
 ".git/config": "24b51e83e8231bedc47ff915560437e9",
 ".git/objects/0d/fc94acb29abacc4aace7e7251a13ba3ea9d374": "bd9a78cc728d38cb1adb97b9aa545a11",
 ".git/objects/03/eaddffb9c0e55fb7b5f9b378d9134d8d75dd37": "87850ce0a3dd72f458581004b58ac0d6",
@@ -22,6 +23,7 @@ const RESOURCES = {
 ".git/objects/32/46ad559eeae0370195978eaed83f1053ee13fd": "a043dbc0a0bda96ce2127799ccc27506",
 ".git/objects/51/116cc6b735a8859fe1ccec948c6fec051bd4a0": "e913bd614049f2cfb45970ef5ea882df",
 ".git/objects/94/98d1198023f96a6a2cb53ec56d86b7c57918da": "d84365c3dc715624bb1afde8eae9befb",
+".git/objects/34/93da2caaf8e4716e21f6e0fe7c5a4ab5fdf1be": "2b4183b30b6c0e2e7b3fd7621c085145",
 ".git/objects/5a/6ef19725771b69c63f52cbba862a2a29268d08": "16b3006132dc1ffde4e107c09c2b57f7",
 ".git/objects/05/044f23ee260fa84b5945dfb592f89d70d872d9": "bdf80c158b30d12a1a062daa6669d799",
 ".git/objects/a3/911fdfed9817e997610b6c296d0aa4fe53bb53": "d79bfe5b88b60e9101a1acba418f3f8d",
@@ -34,8 +36,12 @@ const RESOURCES = {
 ".git/objects/e5/951dfb943474a56e611d9923405cd06c2dd28d": "c6fa51103d8db5478e1a43a661f6c68d",
 ".git/objects/eb/9b4d76e525556d5d89141648c724331630325d": "37c0954235cbe27c4d93e74fe9a578ef",
 ".git/objects/ee/75f6a75be091f0e8685d02810d88acbae6231e": "f59b2914fb7f3310043bea08eef510f2",
+".git/objects/ee/559219f55a6e95be2bfb19ae0dd6a9d5d89202": "fb22129c52247191028a75659d226108",
 ".git/objects/f2/c7dddb8d2f864ac2c56afbd7c8893a205e6d72": "fb0f807da4fd57be163c91b020e37a6c",
+".git/objects/c8/9a05beb51d108836c6eafb7cb0cab4d5f0c324": "2641d2502bbb724d8d689cabaad737a0",
 ".git/objects/18/42844f68ecf1ac91f300139c74245f42681298": "9e3639e305f1b81dc8e0288bd47ed135",
+".git/objects/27/3ef8a447a4cda9770657af341b1ee6707b6bc2": "52722f0a9c39c7418ec834e421c7154d",
+".git/objects/4b/adde818fb19cd45e06321612fceab8df4d959d": "6f503a09c8f976c47516b6fa3902f4d6",
 ".git/objects/7d/f90b2b3de6f88d180bf6961779715eeb609a81": "6f257bcba82f33f9f7c9300118d60420",
 ".git/objects/7c/4c0b935f0b8267bd588fc566a694db37f56e1d": "e015b528f076f8952f57e570ed959e14",
 ".git/objects/89/dae4ff870a6d7d4bb0ccf5fc5d1f7e56d0614e": "f185acf8a51e643c402b81e1b7cf5aae",
@@ -56,17 +62,22 @@ const RESOURCES = {
 ".git/objects/a1/3837a12450aceaa5c8e807c32e781831d67a8f": "bfe4910ea01eb3d69e9520c3b42a0adf",
 ".git/objects/e1/e5dea56930bde331a9938597b1255b34976968": "ca51dc898453aade50e5bf64b485d0a3",
 ".git/objects/c2/34c86417a2b03ef98a207a043994d9b17d4ceb": "00608178c81fcb821263e8210cf92b12",
+".git/objects/e9/846c706b1700b27640296cf2653c03e3ca8282": "a58585502c91b69cc3931e85bee311e9",
 ".git/objects/e0/f92e6d4a538281f1cb80869b5f1efca974da6b": "91322e309260a130c08e8e5cd9476fd6",
 ".git/objects/46/4ab5882a2234c39b1a4dbad5feba0954478155": "2e52a767dc04391de7b4d0beb32e7fc4",
 ".git/objects/79/ba7ea0836b93b3f178067bcd0a0945dbc26b3f": "f3e31aec622d6cf63f619aa3a6023103",
+".git/objects/41/477347de82dc4e1084daea68fa4dc7a5d0d2b1": "64cb53b0469ab723c527a31da616fe92",
 ".git/objects/83/4036d7e43eb459529f3b5c20a71f086e177139": "ad2149ce93da44aa7e0db84e08169534",
+".git/objects/1e/5f4d6c16a691d3b789b70d93eb06e8e859f215": "d729a361927590fa23d074b2f37f373b",
+".git/objects/23/9d3ce3d436631f7197dd26a4fda6db5ae53a68": "27094a8f5274689449e8aa9049bf752d",
 ".git/objects/1c/3fe550971d7369b15054916c0db998c38f0721": "51f32f8416824ddebbd8d61a62845c8d",
+".git/objects/82/b3242711f70ab9a46287c3e81e9399d4d75fa2": "f2651abf0cb984f0c46125503f670b1a",
 ".git/objects/49/69169de7aab7a87ad52ba943aa85226b6248dd": "56a74d3fba19645b4c54063d46e60bee",
 ".git/HEAD": "4cf2d64e44205fe628ddd534e1151b58",
 ".git/info/exclude": "036208b4a1ab4a235d75c181e685e5a3",
-".git/logs/HEAD": "9dd101fcc35dfbd40034fce7b7a7c161",
-".git/logs/refs/heads/master": "9dd101fcc35dfbd40034fce7b7a7c161",
-".git/logs/refs/remotes/origin/master": "5f1f6ac7a01e93d5136f9e08a19c2b77",
+".git/logs/HEAD": "4a7c02860ce2b338ee3c88197c970f8e",
+".git/logs/refs/heads/master": "fb1e44e433ef4a7e3cf6a61f0f4189bd",
+".git/logs/refs/remotes/origin/master": "c0a9952ad777a7905765bcdf2f5ae285",
 ".git/description": "a0a7c3fff21f2aea3cfa1d0316dd816c",
 ".git/hooks/commit-msg.sample": "579a3c1e12a1e74a98169175fb913012",
 ".git/hooks/pre-rebase.sample": "56e45f2bcbc8226d2b4200f7c46371bf",
@@ -81,10 +92,10 @@ const RESOURCES = {
 ".git/hooks/pre-push.sample": "2c642152299a94e05ea26eae11993b13",
 ".git/hooks/update.sample": "647ae13c682f7827c22f5fc08a03674e",
 ".git/hooks/push-to-checkout.sample": "c7ab00c7784efeadad3ae9b228d4b4db",
-".git/refs/heads/master": "a6b6f0e7c171398100dd47857d2df607",
-".git/refs/remotes/origin/master": "a6b6f0e7c171398100dd47857d2df607",
-".git/index": "fc8f3b296e15c16a2459a2e9267d2cd0",
-".git/COMMIT_EDITMSG": "eb1ff3a7fe725c27aca6e5872903ebb3",
+".git/refs/heads/master": "132437783246f8f1b19dbaa7b42d4fa3",
+".git/refs/remotes/origin/master": "132437783246f8f1b19dbaa7b42d4fa3",
+".git/index": "0e1b385f11f01911d5c487c1f4608dbc",
+".git/COMMIT_EDITMSG": "7110cb80cff41d20febb4fb2fbdcfe02",
 "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
 "assets/NOTICES": "172661f7a237bd44c35101faf594c151",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
@@ -99,7 +110,7 @@ const RESOURCES = {
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-".",
+  ".",
 "main.dart.js",
 "index.html",
 "assets/NOTICES",
@@ -144,7 +155,7 @@ self.addEventListener("activate", function(event) {
       for (var request of await contentCache.keys()) {
         var key = request.url.substring(origin.length + 1);
         if (key == "") {
-          key = "/";
+          key = ".";
         }
         // If a resource from the old manifest is not in the new cache, or if
         // the MD5 sum has changed, delete it. Otherwise the resource is left
@@ -233,7 +244,7 @@ async function downloadOffline() {
   for (var request of await contentCache.keys()) {
     var key = request.url.substring(origin.length + 1);
     if (key == "") {
-      key = "/";
+      key = ".";
     }
     currentContent[key] = true;
   }
