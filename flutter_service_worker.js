@@ -4,8 +4,8 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "62e1efb6943c1df6a57910e26cdcab73",
-"index.html": "351668107aba900378a02274575b5702",
-".": "351668107aba900378a02274575b5702",
+"index.html": "f7932183eab98bebfd864776bbeea5d8",
+"/": "f7932183eab98bebfd864776bbeea5d8",
 "CNAME": "cd0cc1bda7e9379a58652cba88a1d793",
 "main.dart.js": "b2b8a9755501a0b4f5404f2042ce334e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
@@ -21,6 +21,7 @@ const RESOURCES = {
 ".git/objects/57/ea7660f969b5e0ec4ae5eb6162de49a8a7b09a": "9b8850f2af4f29300299f8d6030d29a6",
 ".git/objects/03/eaddffb9c0e55fb7b5f9b378d9134d8d75dd37": "87850ce0a3dd72f458581004b58ac0d6",
 ".git/objects/03/ab37b117e94f04f3c40f6899cc4c09f04b8fec": "fd42a62f5140e85222c8bef890700e09",
+".git/objects/9b/7560b85cbf53e941a940b6ccca2b23feb5b342": "6e4c2a4150a1a19d041aedf1be858f36",
 ".git/objects/9b/d5739cb6ecf1aa74706a0f71c7c4270b3a70e8": "f4c5bcc13447ec7b56d862de5d597316",
 ".git/objects/9e/083ea1e3b88d458940cc1ebbfec32859255333": "69adbffd64dc0a6e0343fe97d4d382d1",
 ".git/objects/32/46ad559eeae0370195978eaed83f1053ee13fd": "a043dbc0a0bda96ce2127799ccc27506",
@@ -30,6 +31,7 @@ const RESOURCES = {
 ".git/objects/5a/6ef19725771b69c63f52cbba862a2a29268d08": "16b3006132dc1ffde4e107c09c2b57f7",
 ".git/objects/05/044f23ee260fa84b5945dfb592f89d70d872d9": "bdf80c158b30d12a1a062daa6669d799",
 ".git/objects/a3/911fdfed9817e997610b6c296d0aa4fe53bb53": "d79bfe5b88b60e9101a1acba418f3f8d",
+".git/objects/b5/445975336fad74a6c029b19dc68522c3670729": "1c5911ed25cad9e63685fc274748fbdb",
 ".git/objects/ad/8174d3e3649c8b191fe1b0ea0e3dd336922997": "f09993e837f76db1ad906bf58a7bad2d",
 ".git/objects/b3/607a87f82610029fac0325960e2c67733a9b21": "7c0c0a5561137133e7fde2c2dee67ca0",
 ".git/objects/a5/61e586342423c9a00e5668ab7d5ceac419b409": "d2ad0fb840948c3eb1827eb7cbd83292",
@@ -53,6 +55,7 @@ const RESOURCES = {
 ".git/objects/7c/4c0b935f0b8267bd588fc566a694db37f56e1d": "e015b528f076f8952f57e570ed959e14",
 ".git/objects/89/dae4ff870a6d7d4bb0ccf5fc5d1f7e56d0614e": "f185acf8a51e643c402b81e1b7cf5aae",
 ".git/objects/80/4ec16893dc99772f3a043f274f15fc91024a62": "1d114931ca5931bda88b88610828fcb5",
+".git/objects/17/63e79451b0facc03efcf0c35f037c8b41caa15": "9d4a8df465f147ab1aedc225bdfec751",
 ".git/objects/8a/aa46ac1ae21512746f852a42ba87e4165dfdd1": "1d8820d345e38b30de033aa4b5a23e7b",
 ".git/objects/10/c592387590d59fcf65db4ba6f1ed16fc5268a1": "d0a9f9fc72af10abe877f4555f6bc862",
 ".git/objects/10/f522b93d8d264b1f3a7cfa3095212e6e490625": "c0b7e741dd5cc90e8a777f163418ab22",
@@ -84,14 +87,15 @@ const RESOURCES = {
 ".git/objects/83/4036d7e43eb459529f3b5c20a71f086e177139": "ad2149ce93da44aa7e0db84e08169534",
 ".git/objects/1e/5f4d6c16a691d3b789b70d93eb06e8e859f215": "d729a361927590fa23d074b2f37f373b",
 ".git/objects/23/9d3ce3d436631f7197dd26a4fda6db5ae53a68": "27094a8f5274689449e8aa9049bf752d",
+".git/objects/15/69fa6feea2e1007ccb1f7a9893f341ef633796": "e57d352e94b152ddc56131af8444cbf1",
 ".git/objects/1c/3fe550971d7369b15054916c0db998c38f0721": "51f32f8416824ddebbd8d61a62845c8d",
 ".git/objects/82/b3242711f70ab9a46287c3e81e9399d4d75fa2": "f2651abf0cb984f0c46125503f670b1a",
 ".git/objects/49/69169de7aab7a87ad52ba943aa85226b6248dd": "56a74d3fba19645b4c54063d46e60bee",
 ".git/HEAD": "4cf2d64e44205fe628ddd534e1151b58",
 ".git/info/exclude": "036208b4a1ab4a235d75c181e685e5a3",
-".git/logs/HEAD": "362234f3f39937e19baa886925b3d90c",
-".git/logs/refs/heads/master": "4d3e55002d3900c80be74091532e5fd6",
-".git/logs/refs/remotes/origin/master": "02a2fe808b2c614ccff119abf17e4dc1",
+".git/logs/HEAD": "036ac2feeb4dcdcc2914a3d7ef530458",
+".git/logs/refs/heads/master": "0f5bbd4f5e1d7c04572f831d914dd83a",
+".git/logs/refs/remotes/origin/master": "e050a6588b0c288a176cd102bef01708",
 ".git/description": "a0a7c3fff21f2aea3cfa1d0316dd816c",
 ".git/hooks/commit-msg.sample": "579a3c1e12a1e74a98169175fb913012",
 ".git/hooks/pre-rebase.sample": "56e45f2bcbc8226d2b4200f7c46371bf",
@@ -106,10 +110,10 @@ const RESOURCES = {
 ".git/hooks/pre-push.sample": "2c642152299a94e05ea26eae11993b13",
 ".git/hooks/update.sample": "647ae13c682f7827c22f5fc08a03674e",
 ".git/hooks/push-to-checkout.sample": "c7ab00c7784efeadad3ae9b228d4b4db",
-".git/refs/heads/master": "48024f8534e5eb4bb807906460ce304c",
-".git/refs/remotes/origin/master": "48024f8534e5eb4bb807906460ce304c",
-".git/index": "0798a2319f0ac499928f4a8d02c7b9ad",
-".git/COMMIT_EDITMSG": "a556a7a8eb8d2cde5e6495088c489ec6",
+".git/refs/heads/master": "d90e3da13df9a981176337f186c65cb0",
+".git/refs/remotes/origin/master": "d90e3da13df9a981176337f186c65cb0",
+".git/index": "43246cacba83654266973ee5258d8d07",
+".git/COMMIT_EDITMSG": "0853cb473439788b64f3379f5116ac97",
 ".git/FETCH_HEAD": "cac5b4bc623a43a5db2b616a2b461d9e",
 "assets/AssetManifest.json": "2efbb41d7877d10aac9d091f58ccd7b9",
 "assets/NOTICES": "172661f7a237bd44c35101faf594c151",
@@ -125,7 +129,7 @@ const RESOURCES = {
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  ".",
+  "/",
 "main.dart.js",
 "index.html",
 "assets/NOTICES",
@@ -170,7 +174,7 @@ self.addEventListener("activate", function(event) {
       for (var request of await contentCache.keys()) {
         var key = request.url.substring(origin.length + 1);
         if (key == "") {
-          key = ".";
+          key = "/";
         }
         // If a resource from the old manifest is not in the new cache, or if
         // the MD5 sum has changed, delete it. Otherwise the resource is left
@@ -259,7 +263,7 @@ async function downloadOffline() {
   for (var request of await contentCache.keys()) {
     var key = request.url.substring(origin.length + 1);
     if (key == "") {
-      key = ".";
+      key = "/";
     }
     currentContent[key] = true;
   }
